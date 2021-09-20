@@ -23,7 +23,7 @@ if (response):
         date, usd, eur
     )]
 
-    conn = sqlite3.connect('bdcotacoes.db', timeout=10)
+    conn = sqlite3.connect('./bdcotacoes.db', timeout=10)
 
     cursor = conn.cursor()
 
